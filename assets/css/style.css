@@ -1,0 +1,615 @@
+/*dark :  #001E62; navbar-light: #759DF9; light: #1858EC */
+#ac-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .6);
+
+    z-index: 1001;
+
+}
+#popup {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 2px 300px 46px rgba(219,213,31,1);
+  -moz-box-shadow: 0px 2px 300px 46px rgba(219,213,31,1);
+  box-shadow: 0px 2px 300px 46px rgba(219,213,31,1);
+    position: relative;
+
+}
+.mockexam{
+    z-index: 9999;
+    position: fixed;
+    left: 20px;
+    top: 40%;
+    font-size: smaller;
+    background-color: transparent;
+  }
+
+.social{
+    z-index: 9999;
+    position: fixed;
+    right: -20px;
+    top: 60%;
+    transform: translate(0%,-50%);
+    width: 80px;
+    height: 250px;
+    background-color: transparent;
+  }
+.socialnetwork{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    transform: translateX(5px);
+}
+.socialnetwork:hover{
+  transition: 0.5s;
+ transform: translateX(-10px)
+}
+.course{
+    transform: scale(0.9);
+
+}
+@media (max-width: 768px) {
+   .collegelogo{ margin: 2px; padding: 0px; width: 300px; }
+   .textnotifcation{font-size: 8px;}
+   .h3text{font-size:13px; }
+   .h4text{font-size:12px; }
+   .social a  button{width: 40px; height: 40px; right: -20px;}
+   .admissiontext{font-size: 16px;}
+   .slideshowheader .headerquotes{font-size: 20px;}
+   .slideshowheader{width: 100%; height:30vh;}
+   .slideshowheader2 .img1{width: 100%; height:35vh;}
+   .workingteam{display: none;}
+   #courses1 h4{font-size: 15px;}
+   #courses1 h6{font-size: 12px;}
+   #courses1 a h6{font-size: 8px;}
+   #departmentlist li button{ font-size: 8px;}
+   .department22{height: 40px;}
+   #departmentlist li h2{ font-size: 9px; margin-top: 30px;}
+   #departmentdetail li .container h2 strong{ font-size: 25px;}
+   #bggg{font-size: 25px;}
+}
+@media (min-width:768px) {
+
+   #bggg{font-size: 40px;}
+  .slideshowheader .headerquotes{font-size: 50px;}
+}
+
+
+
+@media (max-width: 767px) and (max-width: 991px){
+    .textme{display: none;}
+    .extraevent{display: none;}
+
+    .eventimg{display: none;}
+    #event{background-size: 0%;}
+    #requiters{display: none;}
+    #team{background-size: 0%;}
+    #courses{background-size: 0%;
+    }
+
+    }
+
+#event{
+  background-image: url(../../img/event.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#back{
+  background-image: url(../../img/background.svg);
+
+  background-size: 100%;
+}
+#courses{
+  background-image: url(../../img/coursec.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+#team{
+  background-image: url(../../img/team.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+
+}
+#kkkk{
+background-image: url(../../img/bg1.svg);
+background-position: left;
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+#requiters{
+background-image: url(../../img/requiters3.svg);
+background-position: left;
+background-size: 90%;
+background-repeat: no-repeat;
+}
+
+
+  .custom-toggler{background-color: #001E62; border-color: white;}
+  .nav-item{
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    background-color: #001E62;
+    color:white;
+  }
+  .active{
+    background-color: #001E62;
+    color:white;
+  }
+  .dropdown-menu{
+    background-color: #759DF9;
+  }
+  .dropdown-item{color: white;}
+  .dropdown-item:hover{background-color: #001E62;color:white;}
+
+
+
+#l{
+    transform-origin: bottom;animation: round 6s linear infinite;height: 3px; width:100%; background-color: #1858EC;}
+@keyframes round {
+    16% { transform: scale(0);}
+    32% { transform: scale(0.3); }
+    48% {transform: scale(0.6); }
+    64% {transform: scale(1); }
+    80% {transform: scale(0.7); }
+
+}
+
+.course:hover {
+    display: block;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.course{
+  transition: 0.5s;
+
+    transform: scale(0.9);
+    background-color: white;
+}
+.devp:hover {
+
+    display: block;
+    transition: 0.7s;
+    transform: scale(1);
+    border-radius: 20px;
+
+}
+
+.devp{
+  transition: 0.7s;
+
+    transform: scale(0.9);
+    background-color:#f2f3f7;
+}
+.line{
+    animation: app 3s linear infinite;
+}
+@keyframes app{
+    16% { transform: scale(0);}
+    32% { transform: scale(0.3); }
+    48% {transform: scale(0.6); }
+    64% {transform: scale(1); }
+    80% {transform: scale(0.7); }
+}
+
+.course:hover {
+    display: block;
+    transition: 0.5s;
+    transform: scale(1);
+}
+hr.solid {
+    border-top: 1px solid #999;
+}
+.event:hover{
+  text-decoration: none;
+    transition: 0.5s;
+    transform: scale(1.05);
+}
+.event{
+  transition: 0.5s;
+
+}
+#footer a{
+    color: white;
+}
+
+.slideshow{
+    margin: 4% auto;
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+    perspective: 1000px;
+
+
+}
+  .carousel1{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  animation: rotate 50s infinite linear
+  }
+  .carousel1:hover{
+    animation-play-state: paused;
+  }
+
+.carousel1 .slide{
+text-align: center;
+justify-content: center;
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+overflow: hidden;
+
+
+  }
+  .carousel1 .slide:nth-child(1){transform: rotateY(0deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(2) { transform: rotateY(40deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(3) { transform: rotateY(80deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(4) { transform: rotateY(120deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(5) { transform: rotateY(160deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(6) { transform: rotateY(200deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(7) { transform: rotateY(240deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(8) { transform: rotateY(280deg) translateZ(280px);}
+  .carousel1 .slide:nth-child(9) { transform: rotateY(320deg) translateZ(280px);}
+
+
+
+  .carousel1 .slide  img{
+    width: 180px;
+    height: 80px;
+    cursor: pointer;
+    transition: all .5s ease;
+    border: solid 2px #001E62;
+    -webkit-box-shadow: 2px 5px 2px 0px rgba(129, 127, 127, 0.75);
+
+    }
+.carousel1 .slide img:hover{
+
+     transform: scale(1.1,1.1);
+    }
+
+@keyframes rotate{
+   from{
+       transform: rotateY(0deg);
+   }
+   to{
+       transform: rotateY(-360deg);
+   }
+}
+
+
+
+.slide1, .slide2, .slide3, .slide4{
+    position: absolute;
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(76, 175, 80, 0.1);
+}
+.img1{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    
+    animation: slide 8s linear infinite;
+}
+@keyframes slide{
+    25%{
+        transform: translateX(10px);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+
+}
+.slide1{
+    animation: slide1 32s linear infinite;
+}
+.slide2{
+    animation: slide2 32s linear infinite;
+}
+.slide3{
+    animation: slide3 32s linear infinite;
+}
+.slide4{
+    animation: slide4 32s linear infinite;
+}
+@keyframes slide1{
+    0%{
+        visibility: visible;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide2{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: visible;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide3{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: visible;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide4{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: visible;
+    }
+    100%{
+        visibility: hidden;
+    }
+}
+@keyframes slide1{
+    0%{
+        visibility: hidden;
+    }
+    25%{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+    75%{
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:-6px;
+
+}
+
+/* rotate caret on hover */
+.dropdown-menu > li > a:hover:after {
+    text-decoration: underline;
+    transform: rotate(-90deg);
+}
+#hod-profile,#syllabus,#pospeos,#labdetail,#vm,#research,#faculty,#dlocking,#gearlever,#other,#moim,#ss,#wo,#poa,#iqacc,#function1,#goalso,#student{
+  display: none;
+}
+#introduction{
+  display: block;
+}
+.pp ul li button{
+  font-size: 17px;
+  font-family:serif;
+  font-weight: bold;
+
+
+}
+.actived{
+  background-color: yellow;
+  border: none;
+
+}
+
+#imgcomp{
+background-image: url('../../img/computere.jpg');
+background-position: center;
+width: 100%;
+height: 400px;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#imgiqac{
+background-image: url('../../img/iqac/iqac.jpg');
+background-position: center;
+width: 100%;
+height: 400px;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#imgworkshop{
+background-image: url('../../img/workshop/workshop.jpg');
+background-position: center;
+width: 100%;
+height: 400px;
+position: absolute;
+background-size: cover;
+background-repeat: no-repeat;
+}
+#alumnibac{
+  background-image: url('../../img/alumni/alumni.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#imglibrary{
+  background-image: url('../../img/library/library1.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#imgetc{
+  background-image: url('../../img/e_tc-lab/e_tc.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#imgmech{
+  background-image: url('../../img/mech-lab/mechb.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#imgcivil{
+  background-image: url('../../img/civil-lab/civilb.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+#imgfe{
+  background-image: url('../../img/fe-lab/feback.jpg');
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+/* Animation */
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0,80px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0);
+        opacity: 1
+    }
+}
+.animated {
+    animation-duration: 3s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-fill-mode: both
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+#burst{
+     background: #f09e07;
+     top: 50px;
+     right: 35px;
+     width: 170px;
+     height: 170px;
+     position: relative;
+     text-align: center;
+   }
+   #burst:before,
+   #burst:after {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 170px;
+     width: 170px;
+     background: #f09e07;
+   }
+   #burst:before {
+     transform: rotate(30deg);
+   }
+   #burst:after {
+     transform: rotate(60deg);
+   }
+
+  /*devloper page design*/
+#devback{
+  background-image: url('../../img/devloper/undraw_work_together_h63l.svg');
+  background-position: right;
+  background-size: 100px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;}
