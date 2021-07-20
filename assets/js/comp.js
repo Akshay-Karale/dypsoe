@@ -1,3 +1,11 @@
+//header and footer loader 
+ $(document).ready(()=>{
+    $('#combine-footer').load('combines/footer.html');
+    $('#combine-header').load('combines/header.html');
+  })
+
+
+
 function introduction() {
   $('#introduction').css('display','block');
   $('#hod-profile,#syllabus,#pospeos,#labdetail,#vm,#faculty,#gearlever,#dlocking ,#other,#moim,#ss,#wo,#poa,#iqacc,#function1,#goalso,#student,#function2').css('display','none');
