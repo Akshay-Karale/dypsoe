@@ -1,7 +1,7 @@
 //header and footer loader 
  $(document).ready(()=>{
-    $('#combine-footer').load('combines/footer.html');
-    $('#combine-header').load('combines/header.html');
+    $('#footer').load('footer.html');
+    $('#header').load('header.html');
   })
 
 
